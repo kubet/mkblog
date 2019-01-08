@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import Mk from '../img/Show.svg'
+import Mk from '../img/onama.svg'
 
 import '../components/scss/index.scss'
 
