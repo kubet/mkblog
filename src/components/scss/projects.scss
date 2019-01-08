@@ -1,0 +1,58 @@
+.half-left {
+  display: grid;
+  height: 100%;
+}
+.lSlika {
+  max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+}
+.Dstrana {
+  margin:auto;
+  text-align: center;
+}
+.Dstrana h1 {
+  font-family: 'Julius Sans One';
+  font-size: 3.5rem;
+}
+.Dstrana p {
+  font-family: 'KoHo';
+  font-size: 16px;
+}
+.kprojects {
+}
+.bdesno {
+  border-radius: 0;
+  height: 92px;
+  width: 92px;
+  background-color: #212121;
+}
+.blevo {
+  border-radius: 0;
+  height: 92px;
+  width: 92px;
+  background-color: #9E9E9E;
+}
+.arL {
+  width: 30px;
+  height: auto;
+}
+.arR {
+  width: 30px;
+  height: auto;
+}
+.btn-group {
+  position: absolute;
+  position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+.Close {
+  cursor: pointer;
+  width: 21px;
+  height: auto;
+  position: absolute;
+  position: fixed;
+    top: 15px;
+    right: 15px;
+}

@@ -1,0 +1,110 @@
+@import './color.scss';
+
+.article {
+  padding-top: 40px;
+  padding-bottom: 10px;
+
+  .info {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid $gray-200;
+    word-break: break-word;
+
+    h1 {
+      font-size: 23px;
+      font-weight: 700;
+      font-family: Merriweather;
+      letter-spacing: -0.5px;
+      color: black;
+      text-decoration: none;
+    }
+    h1:hover {
+        text-decoration: none;
+      }
+      time:hover {
+          text-decoration: none;
+      }
+    .badge {
+      margin-right: 3px;
+    }
+
+    time {
+      font-family: Merriweather;
+      font-size: 14px;
+      font-weight: 400;
+      color: $gray-500;
+      display: inline;
+      margin-right: 10px;
+    }
+  }
+
+  .content {
+    padding-bottom: 10px;
+
+    h2 {
+      padding-top: 10px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-family: Google Sans;
+      margin: 20px 0;
+    }
+
+    blockquote {
+      background-color: $gray-100;
+      border-left: 5px solid $gray-200;
+      padding: 0.25em 1.5em;
+
+      a {
+        display: block;
+        word-break: break-word;
+      }
+    }
+  }
+}
+.morebtn {
+    font-family: Raleway;
+    background: white !important;
+    border-radius: 0px !important;
+    letter-spacing: 5px;
+    width: 177px;
+    height: 50px;
+    color: black !important;
+    border-color: black !important;
+    border-width: 1px !important;
+    .moretxt {
+        color: black !important;
+    }
+}
+.morebtn:hover {
+    background: black !important;
+    color: white !important;
+    .moretxt {
+        color: white !important;
+    }
+}
+.morebtn:focus {
+    box-shadow: none !important;
+}
+@media screen and (min-width: 200px) {
+    .article {
+        margin: 0 1px;
+    }
+}
+@media screen and (min-width: 500px) {
+    .article {
+        margin: 0 15px;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .article {
+        margin: 0 125px;
+    }
+}
+@media screen and (min-width: 1100px) {
+    .article {
+        margin: 0 250px;
+    }
+}
+
