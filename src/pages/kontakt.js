@@ -19,19 +19,19 @@ export default class kontakt extends Component {
           <input type="hidden" name="bot-field" />
           </p>
                   <p>
-                     <label>Ime</label>
+                     <label className="kabel">Ime</label>
                      <input type="text" className="form-control" name="name" />
                   </p>
                   <p>
-                     <label>Email</label>
+                     <label className="kabel">Email</label>
                      <input type="text" className="form-control" name="email" />
                   </p>
                   <p>
-                     <label>Poruka</label>
+                     <label className="kabel">Poruka</label>
                      <textarea name="message" className="form-control" rows="5" ></textarea>
                   </p>
                   <p>
-                     <button id="button" className="btn btn-lg posaljid" type="submit">Posalji</button>
+                     <button id="button" className="btn posaljibtn" type="button">POSALJI</button>
                   </p>
                </form>
             </div>

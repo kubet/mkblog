@@ -34,7 +34,7 @@ export default class usluge extends Component {
                   <span className="hr"/>
                </li>
                <li className="media my-4">
-                  <img className="mt-19" src={Ember} alt="Ember" width="45" height="45" />
+                  <img className="pt-5" src={Ember} alt="Ember" width="45" height="65" />
                   <div className="media-body pl-2">
                      <h5 className="bu mt-0 mb-1">Ember</h5>
                      <p className="uslugeg">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.</p>
