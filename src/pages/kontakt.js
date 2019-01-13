@@ -31,7 +31,7 @@ export default class kontakt extends Component {
                      <textarea name="message" className="form-control" rows="5" ></textarea>
                   </p>
                   <p>
-                     <button id="button" className="btn posaljibtn" type="button">POSALJI</button>
+                     <button id="button" className="btn posaljibtn" type="submit">POSALJI</button>
                   </p>
                </form>
             </div>
