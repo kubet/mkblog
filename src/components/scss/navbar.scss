@@ -2,7 +2,7 @@
       height: 64px;
   }
   #levo {
-      padding-left: 600px;
+      padding-left: 450px;
   }
   .nav.navbar-nav {
         display: flex;
@@ -11,10 +11,11 @@
   
   }
   .navbar-brand {
+      margin-left: -10px;
       height: auto;
-      width: 180px;
+      width: 200px;
   }
-  @media (min-width: 1280px) {
+  @media (min-width: 1302px) {
         .navbar-nav {
               float: none;
         }
@@ -27,7 +28,7 @@
       padding-left:20px;
       padding-right:20px;
     }
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 1302px) {
         #navig {
               height: 64px;
           }

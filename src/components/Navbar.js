@@ -9,8 +9,8 @@ const Navbar = class extends React.Component {
  render() {
    return (
       <nav className="main-nav navbar navbar-expand-lg navbar-light" role="navigation" id="navig">
-      <Link className="" to="/">
-                <img className="navbar-brand pt-3 pl-1" src={Logo} alt="Manufaktura Koda"/>
+      <Link className="logo" to="/">
+                <img className="navbar-brand pt-3" src={Logo} alt="Manufaktura Koda"/>
           </Link>
    <input type="checkbox" id="nav" className="hidden" />
    <label for="nav" className="nav-btn">
@@ -45,8 +45,15 @@ const Navbar = class extends React.Component {
             <li
             className="nav-item"
             >
-            <Link to="/kontakt" className="nav-link" activeClassName="active">
+            <Link to="/kontakt/" className="nav-link" activeClassName="active">
             Kontakt
+            </Link>
+            </li>
+            <li
+            className="nav-item"
+            >
+            <Link to="/projects/" className="nav-link" activeClassName="active">
+            Projects
             </Link>
             </li>
          </ul>
